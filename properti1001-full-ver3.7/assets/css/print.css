@@ -1,0 +1,28 @@
+/*---------------- Media Print ----------------------*/
+@media print{  
+  .no-print{
+    display:none;
+  }
+  .logo-print{
+    display:inline;
+	position:absolute;
+	right:0;
+	top:0;
+  }
+  .box-print{
+    margin-top:-140px;
+  }
+  .desc-icon-print{
+    margin:-41px 0px 0px 0px;
+  }
+  .img-map-print{
+    margin:-35px 0px 15px 0px;
+  }
+  .agnt-photo-bg{
+    border:none;
+  }
+  .agnt-photo-bg > a > img{
+    width:100px;
+	border:1px solid #e1e1e1;
+  }
+}

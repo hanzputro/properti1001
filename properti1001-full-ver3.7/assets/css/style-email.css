@@ -1,0 +1,189 @@
+/*
+Template Name: Properti1001
+Version: 1.2
+Author: Hanzputro
+Website: http://www.properti1001.com
+*/
+/*********************************************************/
+/*                 Custom styles                  */
+/*********************************************************/
+hr {
+  margin: 5px 0px -5px 0px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #fff;
+}
+
+body {
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  font-family: Calibri;
+  font-size: 14px;
+}
+#wrap-email {
+  height: auto !important;
+  /* Negative indent footer by it's height */  
+}
+
+/* -------- END Sticky footer styles ------------------ *//*********************************************************/
+/*                 Template Layout                       */
+/*********************************************************/
+/* END  FIXED LAYOUT STYLES    */
+/* BEGIN layout media queries */
+@media (min-width: 1600px) and (max-width: 2560px) {
+  #wrap-email{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+@media (max-width: 1600px) {
+  #wrap-email{
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+/*@media (min-width: 800px) and (max-width: 1024px)*/
+@media (min-width: 480px) and (max-width: 480px) {
+  #wrap-email{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+.header-email{
+	background:#0085b5; 
+	padding:6px 0px 4px 0px;
+}
+.content-email{
+	padding:10px 20px;
+	font-size:14px;
+	line-height:20px;
+}
+.content-email h1{
+	color:#aaa; 
+	font-family:rockwell;
+}
+.footer-email{
+	background:#aaa;
+	padding:10px 0px;
+	font-size:12px;
+	line-height:normal;
+	color:#fff;
+}
+.btn-email{
+	background:#ffa200;
+	padding:10px 20px;
+	text-decoration:none;
+	font-size:18px;
+	color:#fff;
+	margin:0px 0px 20px 0px;
+	border-radius:4px;
+	border:1px solid #e59202;
+}
+.btn-email:hover{
+	background:#e59202;
+}
+.table{
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	border-left:1px solid #999;
+	padding:5px 5px 5px 5px;
+}
+td, th{
+	padding:2px 5px;
+	border-right:1px solid #999;
+}
+.table .header-table{
+	color:#fff;
+	font-size:18px;
+	background:#0085b5; 
+}
+.table .content-table{	
+	background:#fbf94a; 
+}
+
+/*///// email-welcome ////*/
+.content-email > center > h1{
+	font-size:32px;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	color:#0085b5; 
+	font-weight:normal;
+	margin:10px 0 0 0;
+	padding:0;
+}
+.content-email > center > h2{
+	font-size:24px;
+	font-family: "Brush Script MT", cursive;
+	color:#fde127; 
+	margin:8px 0 0 0;
+	padding:0;
+	font-weight:normal;
+}
+.box-col{
+	background:#f5f5f5;
+	padding:10px;
+	margin-bottom:10px;
+	border:1px solid #eee;
+}
+.text > h2 {
+	font-size:27px;
+	color:#fde127; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+	font-weight:normal;
+	margin-bottom:0;
+	line-height:normal;
+}
+.text > p {
+	font-size:16px;
+	color:#666;
+}
+.img-left{
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+.img-right{
+	text-align:right;
+	margin:0;
+	padding:0;
+}
+.img-left > img,
+.img-right > img{
+	border:5px solid #fff;
+	border-radius:4px;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);	
+	height: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
